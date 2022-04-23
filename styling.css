@@ -1,0 +1,21 @@
+element.style {
+}
+#wrap.header_bdr #header {
+    margin-bottom: -101px;
+    border-bottom: 1px solid #eaeaea;
+}
+#header {
+    position: relative;
+    z-index: 210;
+    height: 100px;
+    margin-bottom: -100px;
+    background: #fff;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body, button, input, select, table, textarea {
+    font-size: 12px;
+    font-family: hind,simhei,verdana,Helvetica,sans-serif;
+}

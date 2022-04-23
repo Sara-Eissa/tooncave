@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-222135685-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-222135685-1');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="script.js" defer></script>
+  <link href="styles.css" rel="stylesheet">
+  <title>ToonCave</title>
+  <style>
+.button {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: linear-gradient(to bottom right,#134859,#739D3F);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+background: linear-gradient(to bottom right,#183f4b,#537230);
+}
+
+.button:active {
+background: linear-gradient(to bottom right,#0a171b,#273517);
+}
+
+.button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+.button__icon {
+    font-size: 1.5em;
+}
+
+  </style>
+</head>
+<body>
+<header>
+    <div style="width: 200px; height: 200px;">
+<img class="logo" src="images/logo.jpg" alt="logo" style="width: 200px; height: 200px;">
+</div>
+<nav>
+<ul class="nav__links">
+    <ul class="tabs">
+      
+        <li data-tab-target="#Watch Now!" class="active tab"><button type="button" class="button"></type>
+            <span class="button__text">Watch Now!</span>
+            <span class="button__icon">
+                <ion-icon name="tv-outline"></ion-icon>
+            </span>
+            </button>
+              <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            </li>
+    
+        <li data-tab-target="#Your Cave" class="tab"><button type="button" class="button"></type>
+            <span class="button__text">Your Cave</span>
+            <span class="button__icon">
+                <ion-icon name="home-outline"></ion-icon>
+            </span>
+            </button>
+              <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script></li>
+    
+        <li data-tab-target="#Dwellers" class="tab"><button type="button" class="button"></type>
+            <span class="button__text">Dwellers</span>
+            <span class="button__icon">
+                <ion-icon name="people-circle-outline"></ion-icon>
+            </span>
+            </button>
+              <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script></li>
+    
+    
+        <li data-tab-target="#Shop" class="tab"><button type="button" class="button"></type>
+            <span class="button__text">Shop</span>
+            <span class="button__icon">
+                <ion-icon name="diamond-outline"></ion-icon>
+            </span>
+            </button>
+              <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script></li>
+    
+    
+        <li data-tab-target="#Marketplace" class="tab"><button type="button" class="button"></type>
+            <span class="button__text">Marketplace</span>
+            <span class="button__icon">
+                <ion-icon name="storefront-outline"></ion-icon>
+            </span>
+            </button>
+              <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script></li>
+    
+    
+        <li data-tab-target="#Last Viewed" class="tab"><button type="button" class="button"></type>
+            <span class="button__text">Last Viewed</span>
+            <span class="button__icon">
+                <ion-icon name="bookmark-outline"></ion-icon>
+            </span>
+            </button>
+              <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script></li>
+    
+    
+        <li data-tab-target="#Liked Videos" class="tab"><button type="button" class="button"></type>
+            <span class="button__text">Liked Videos</span>
+            <span class="button__icon">
+                <ion-icon name="star-outline"></ion-icon>
+            </span>
+            </button>
+              <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script></li>
+    
+    
+      </ul>
+
+</ul>
+</nav>
+
+<a class="cta" href="#"><button>Profile</button></a>
+</header>
+
+  <div class="tab-content">
+    <div id="Watch Now!" data-tab-content>
+        <h1>Watch Now!</h1>
+
+    </div>
+    <div id="Your Cave" data-tab-content>
+        <h1>Your Cave</h1>
+        
+    </div>
+    <div id="Dwellers" data-tab-content>
+        <h1>Dwellers</h1>
+        
+    </div>
+    <div id="Shop" data-tab-content>
+        <h1>Shop</h1>
+        
+    </div>
+    <div id="Marketplace" data-tab-content>
+        <h1>Marketplace</h1>
+        
+    </div>
+    <div id="Last Viewed" data-tab-content>
+        <h1>Last Viewed</h1>
+        
+    </div>
+    <div id="Liked Videos" data-tab-content>
+        <h1>Liked Videos</h1>
+        
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">news</a></li>
+                    <li><a href="#">join the team</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Advertising</h4>
+                <ul>
+                    <li><a href="#">media kit</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal+Invest</h4>
+                <ul>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">terms and conditions</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
